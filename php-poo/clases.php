@@ -19,9 +19,14 @@ class Coche {
         // Acceder a la propiedad indicada $this
         return $thist->color;
     }
-    // Cambiar los métodos
+    // Cambiar valores a los métodos
+    // Es necesario pasarle el parámetro
     public function setColor($color) {
         // Le cambiamos el color a la popiedad de la clase Coche
         $this->color = "Negro";
+    }
+
+    public function setColor() {
+        $this->modelo = "A4";
     }
 }
