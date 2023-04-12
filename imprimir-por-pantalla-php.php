@@ -10,7 +10,7 @@
         <h1>Imprimir por pantalla con PHP</h1>
         <p>Php es un lenguaje de programación para trabajar en del lado del servidor,
             así que el código que escribamos no se mostrará por pantalla.
-        El navegador lo interpretará y lo devolverá en forma de HTML si las instrucciones así lo indican.</p>
+            El navegador lo interpretará y lo devolverá en forma de HTML si las instrucciones así lo indican.</p>
     
         <p>También documentaremos nuestro código con comentarios que no serán ejecutados por el navegador.
             Lo haremos con de la siguiente forma: /**/, #, o //
@@ -34,7 +34,10 @@
 
     <!-- Podemos usar un atajo para abrir y cerrar PHP e imprimir un echo.
     Vamos a crear una variable y a concatenarla con un echo de la siguiente forma -->
-    <?php $variable = '200';?>
+    <?php 
+    $variable = '200';
+    ?>
     <hr>
+    
     <?='Aquí llamamos a la siguiente variable para indicar que su valor es '.$variable?>
 <html>

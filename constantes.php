@@ -14,7 +14,7 @@
                 su valor es constante, no cambia a lo largo del programa o desarrollo.
             </p>
             <p>Para definir una constante usamos define('nombre_constante', 'valor_constante');</p>
-            <p>define('web', 'limondigital.es')</p>
+            <p>define('web', 'rucarpe.github.io')</p>
             <p>Para mostrar o llamar a una constante hemos de hacerlo sin usar el simbolo $, ya que
                 no es una variable.
             </p>
